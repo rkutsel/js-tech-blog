@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[ # Tech Blog Prototype](https://still-mesa-07377.herokuapp.com/)
+# [Tech Blog Prototype](https://still-mesa-07377.herokuapp.com/)
 
 ## Description
 
