@@ -45,3 +45,6 @@ node seeds/seed.js # NOTE: this is optional and should only be run if you need s
 ## Usage 
 
 To get started, form the `root` directory run `node server` or `npm start dev` which should fire up all of the components. Optionally you can run `npm run watch` that would provide you with a better dev experience. At this point you should be able to consume the API. You can use any API client. 
+
+## Deploy to Heroku
+The functionality is provided out of the box. There's a few additonal steps required in order to make it work with heroku upon deploy. This guide [Deploy With Heroku And MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql) has a detailed walk-through on how to acheive that. 
