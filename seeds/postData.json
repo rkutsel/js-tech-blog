@@ -1,0 +1,22 @@
+[
+  {
+    "title": "My Fist Tech Blog Post",
+    "article": "This is a placeholder for my first sentence of my first blog post!",
+    "date": "2022-12-9"
+  },
+  {
+    "title": "My Second Tech Blog Post",
+    "article": "This is a placeholder for my second sentence of my second blog post!",
+    "date": "2022-12-10"
+  },
+  {
+    "title": "My Third Tech Blog Post",
+    "article": "This is a placeholder for my third sentence of my third blog post!",
+    "date": "2022-12-11"
+  },
+  {
+    "title": "My Forth Tech Blog Post",
+    "article": "This is a placeholder for my forth sentence of my forth blog post!",
+    "date": "2022-12-12"
+  }
+]

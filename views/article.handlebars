@@ -1,0 +1,33 @@
+<section class="container mt-6 pt-6">
+    <div class="columns">
+      <div class="column is-full">
+        <article class="message has-background-light">
+          <div class="message-header">
+            <p>{{article.title}}</p>
+            <p>{{article.date}}</p>
+            <p>Posted by: <strong>{{article.user.username}}</strong></p>
+          </div>
+          <div class="message-body">
+            {{article.article}}
+          </div>
+        </article>
+      </div>
+    </div>
+  <div class="control">
+    {{#each comments as |c|}}
+      {{> comment}}
+    {{/each}}
+  <textarea id="article-post-comment" class="textarea mt-4" placeholder="Normal textarea"></textarea>
+  </div>
+  <nav class="breadcrumb has-bullet-separator mt-4" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/Dashboard">Dashboard</a></li>
+    <li class="is-active"><a href="#" aria-current="page">{{article.title}}</a></li>
+    {{#if loggedIn}}
+      <li><a href="/api/comments" class="is-primary post-comment-form"><strong>Add a comment</strong></a></li>
+    {{/if}}
+  </ul>
+  </nav>
+  <script src="/js/comment.js"></script>
+</section>

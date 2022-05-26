@@ -5,13 +5,13 @@
     "password": "password1"
   },
   {
-    "username": "pam",
-    "email": "pam@gmail.com",
+    "username": "daniel",
+    "email": "daniel@gmail.com",
     "password": "password2"
   },
   {
-    "username": "tom",
-    "email": "tom@yahoo.com",
+    "username": "chris",
+    "email": "chris@yahoo.com",
     "password": "password3"
   }
 ]

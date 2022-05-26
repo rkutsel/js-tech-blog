@@ -1,28 +1,21 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class Post extends Model {}
+class Comment extends Model {}
 
-Post.init(
+Comment.init(
   {
     id: {
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4,
       primaryKey: true,
     },
-    title: {
-      type: DataTypes.STRING(100),
-      allowNull: false,
-      validate: {
-        len: [3],
-      },
-    },
-    article: {
+    comment: {
       type: DataTypes.TEXT,
       allowNull: false,
       unique: false,
       validate: {
-        len: [5],
+        len: [2],
       },
     },
     date: {
@@ -36,14 +29,21 @@ Post.init(
         key: "id",
       },
     },
+    post_id: {
+      type: DataTypes.UUID,
+      references: {
+        model: "post",
+        key: "id",
+      },
+    },
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "post",
+    modelName: "comment",
   }
 );
 
-module.exports = Post;
+module.exports = Comment;
