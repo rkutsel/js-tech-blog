@@ -6,7 +6,7 @@
 
 ## Description
 
-A tech blog prototype that can be easily extended with more features. As of now it has basic authentication functionality that allows a user to either `login` or `sign up`. A registered user that's logged in has elevated access to add blog posts and comments. 
+A tech blog prototype that can be easily extended. As of now it has a basic authentication functionality that allows a user to either `login` or `sign up`. A registered user that's logged in has elevated access to add blog posts and comments. 
 
 The structure of the codebase follows [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller#:~:text=Model%E2%80%93view%E2%80%93controller%20and%20accepted%20from%20the%20user.) design pattern. Additionally it relies on the following frameworks and libraries: `MySQL RDBMS`, [Sequelize](https://sequelize.org/v6/) to decouple from backend and [Express](https://expressjs.com/) that handles HTTP requests, [Handlebars](https://handlebarsjs.com/) to render HTML templates.
 
