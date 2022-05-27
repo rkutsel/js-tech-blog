@@ -1,6 +1,6 @@
 {
   "name": "js-tech-blog",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "CMS-style tech blog",
   "main": "server.js",
   "scripts": {

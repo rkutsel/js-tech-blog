@@ -69,7 +69,6 @@ router.get("/posts/:id", async (req, res) => {
     const comments = dbCommentData.map((comment) =>
       comment.get({ plain: true })
     );
-    console.log(comments);
     res.render("article", {
       article,
       comments,
